@@ -1,14 +1,56 @@
-/* body {
-    background-color: bisque;
-} */
-
 #presentacion {
-    height: 85vh;
-    /* display: flex;
+    height: 90vh;
+    display: flex;
     justify-content: start;
-    align-items: center; */
+    align-items: center;
+
+    background-image: url("assets/fondo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-#habilidades {
-    height: 85vh;
+.proyecto {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Clase para resaltar texto */
+.text-highlight {
+    color: #FFD700;
+    /* Color dorado brillante */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Sombra de texto para mejor legibilidad */
+}
+
+/* Fondo semi-transparente detrás del texto */
+.d-flex.flex-column.h-100.p-5.pb-3 {
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo negro semi-transparente */
+    border-radius: 15px;
+    /* Bordes redondeados */
+}
+
+
+
+#proyecto-1 {
+    background-image: url("assets/clon.png");
+}
+
+#proyecto-2 {
+    background-image: url("assets/musica.png");
+}
+
+#proyecto-3 {
+    background-image: url("assets/musica.png");
+}
+
+
+.text-shadow-1 {
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
+
+.text-shadow-2 {
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, 1);
 }
