@@ -1,14 +1,20 @@
+
+
 #presentacion {
+    height: 100vh;
+    /* display: flex;
     height: 90vh;
     display: flex;
     justify-content: start;
+    align-items: center; */
     align-items: center;
 
-    background-image: url("assets/fondo.jpeg");
+    background-image: url("assets/histol.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 
 .proyecto {
     background-size: contain;
@@ -31,8 +37,6 @@
     border-radius: 15px;
     /* Bordes redondeados */
 }
-
-
 
 #proyecto-1 {
     background-image: url("assets/clon.png");
