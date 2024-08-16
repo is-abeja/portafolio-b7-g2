@@ -11,11 +11,11 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 
 ## Secciones de mi sitio
 Tomar fotos del portafolio
-![Presentación](assets/histol.jpg)
-![Habilidades]()
-![Proyectos]()
-![Testimonios]()
-![Contacto]()
+![Presentación](assets/presentacion.jpg)
+![Habilidades](assets/habilidades.jpg)
+![Proyectos](assets/proyectos.jpg)
+![Testimonios](assets/testimonios.jpg)
+![Contacto](assets/contacto.jpg)
 
 
 ## Tecnologías
@@ -24,6 +24,6 @@ Tomar fotos del portafolio
 * Bootstrap
 * JS
 
-Tomar fotos del portafolio
+
 ---
-Desarrollado con amor por Isabel, Tecnolochicas pro
+Desarrollado con amor por Isabel, Tecnolochicas pro :)

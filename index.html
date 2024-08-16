@@ -20,11 +20,14 @@
     <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container">
         <a class="navbar-brand" href="#">Isabel</a>
+
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
@@ -50,21 +53,22 @@
       <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
         <div class="row flex-lg-row align-items-center g-5 py-5 my-5">
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-white text-shadow-1 mb-3">Isabel Cervantes
+            <h1 id="app" class="display-5 fw-bold text-white text-shadow-1 mb-3">Isabel Cervantes
             </h1>
             <p class="lead text-shadow-1 text-white text-bold-white">Soy estudiante de medicina con un interés constante
               en aprender nuevas cosas. Me fascinan los idiomas y la tecnología. Creo en el potencial de la tecnología
               para mejorar la salud y la calidad de vida.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
-              <button type="button" class="btn btn-secondary btn-lg px-4">jarquincmayra@gmail.com</button>
+              <a href="https://www.linkedin.com/in/isacervantes/" target="_blank" class="btn-linkedin">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
+              </a>">
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    
+
 
     <section id="habilidades" class="container px-4 py-5">
       <h2 class="pb-2 border-bottom">Habilidades</h2>
@@ -108,18 +112,14 @@
 
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
-
         <div class="col">
           <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google.</h3>
-
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="d-flex align-items-center me-3">
-                  <i class="bi bi-code-square"></i>
-                  <a href="http://" target="_blank" class="ps-3">URL</a>
-                </li>
-              </ul>
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <a href="https://clon-google-dun.vercel.app/" target="_blank" class="text-white text-decoration-none">
+                  Clon de google.
+                </a>
+              </h3>
             </div>
           </div>
         </div>
@@ -127,15 +127,11 @@
         <div class="col">
           <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Música semanal</h3>
-
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="d-flex align-items-center me-3">
-                  <i class="bi bi-code-square"></i>
-                  <a href="http://" target="_blank" class="ps-3">URL</a>
-                </li>
-              </ul>
-
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <a href="https://mis-intereses-mx.vercel.app/" target="_blank" class="text-white text-decoration-none">
+                  Música semanal
+                </a>
+              </h3>
             </div>
           </div>
         </div>
@@ -143,21 +139,15 @@
         <div class="col">
           <div id="proyecto-3" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Cursos en medicina</h3>
-
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="d-flex align-items-center me-3">
-                  <i class="bi bi-code-square"></i>
-                  <a href="http://" target="_blank" class="ps-3">URL</a>
-                </li>
-              </ul>
-
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <a href="https://cursos-medicina-dun.vercel.app/" target="_blank"
+                  class="text-white text-decoration-none">
+                  Cursos en medicina
+                </a>
+              </h3>
             </div>
           </div>
         </div>
-
-
-
       </div>
     </section>
 
@@ -165,7 +155,7 @@
       <h2 class="conteiner text-center border-bottom">Testimonios</h2>
       <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
 
-        <!-- Indicadores para navegar -->
+
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="active" aria-label="Slide 2"
@@ -173,38 +163,42 @@
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
-        <!-- Contenido del carrusel -->
+
         <div class="carousel-inner">
           <div class="carousel-item active">
             <article class="container py-5 text-center px-5">
               <img class="rounded-5" src="assets/litzi.jfif" height="120" alt="Litzi">
               <h3>Litzi Sánchez</h3>
               <h5>Mentora Técnica en Tecnolochicas</h5>
-              <p>Isabel ha demostrado ser una alumna responsable y muy creativa durante el curso. Su interés por
-                aprender la motiva a mejorar con cada proyecto que realiza.</p>
+              <p id="cursiva">"Isabel ha demostrado ser una alumna responsable y muy creativa durante el curso. Su
+                interés por aprender la motiva a mejorar con cada proyecto que realiza."</p>
             </article>
           </div>
 
           <div class="carousel-item">
             <article class="container py-5 text-center px-5">
-              <img class="rounded-5" src="assets/tecnolochicas-logo.png" height="100" alt="Litzi">
-              <h3>Persona 2</h3>
-              <h4>Posición 2</h4>
-              <p>Texto del testimonio 2.</p>
+              <img class="rounded-5" src="assets/marian.jpg" height="100" alt="Litzi">
+              <h3>Marian Jarquin</h3>
+              <h5>Liciendiada en contaduria, y mi hermana</h5>
+              <p id="cursiva">"Isabel es una persona sumamente dedicada y responsable. Siempre enfrenta los desafíos con
+                una actitud positiva, buscando soluciones efectivas y creativas para cualquier situación que se le presente."</p>
             </article>
           </div>
 
           <div class="carousel-item">
             <article class="container py-5 text-center px-5">
-              <img class="rounded-5" src="assets/tecnolochicas-logo.png" height="100" alt="Litzi">
-              <h3>Persona 3</h3>
-              <h4>Posición 3</h4>
-              <p>Texto del testimonio 3.</p>
+              <img class="rounded-5" src="assets/joce.jpg" height="100" alt="Litzi">
+              <h3>Joce Morales</h3>
+              <h5>Amiga y compañera de la universidad</h5>
+              <p id="cursiva">"Isabel es una persona excepcionalmente organizada. Los trabajos y proyectos que realiza no solo
+                se entregan siempre en tiempo y forma, sino que además reflejan un alto nivel de calidad. Su iniciativa
+                en la realización de trabajos grupales es admirable, y su actitud colaborativa y respetuosa la
+                convierten en una compañera de equipo invaluable."</p>
             </article>
           </div>
         </div>
 
-        <!-- Controles de navegación -->
+
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -216,51 +210,60 @@
       </div>
     </section>
 
-
-
   </main>
 
 
   <footer id="contacto" class="container-fluid bg-black" data-bs-theme="dark">
     <div class="py-3">
 
-      <h6 class="text-center text-light">Por lo tanto, frasesilla </h6>
+      <h5 class="text-center text-light">"Donde quiera que el arte de la medicina es amado, también hay un amor por la
+        humanidad." </h5>
+      <h6 class="text-center text-light">Hipócrates</h6>
 
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
 
         <li class="nav-item">
-          <a href="https://www.instagram.com/_mesurashii" target="_blank" class="nav-link px-2 text-body-secondary">
-            <i class="bi bi-instagram fs-3 text-grey"></i>
+          <a href="https://www.instagram.com/nocoffee_studygram?igsh=a2xpbmJ2NTJ0bXFw" target="_blank"
+            class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-instagram fs-2" style="color: #ffffff;"></i>
           </a>
         </li>
 
         <li class="nav-item">
-          <a href="https://www.instagram.com/_mesurashii" target="_blank" class="nav-link px-2 text-body-secondary">
-            <i class="bi bi-linkedin fs-3 text-grey"></i>
+          <a href="https://www.tiktok.com/@microsatlite.onco?_t=8ogklTDKY90&_r=1" target="_blank"
+            class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-tiktok fs-2" style="color: #ffffff;"></i>
           </a>
         </li>
 
         <li class="nav-item">
-          <a href="https://www.instagram.com/_mesurashii" target="_blank" class="nav-link px-2 text-body-secondary">
-            <i class="bi bi-tiktok fs-3 text-grey"></i>
+          <a href="https://github.com/is-abeja" target="_blank" class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-github fs-2" style="color: #ffffff;"></i>
           </a>
         </li>
 
         <li class="nav-item">
-          <a href="https://www.instagram.com/_mesurashii" target="_blank" class="nav-link px-2 text-body-secondary">
-            <i class="bi bi-github fs-3 text-grey"></i>
+          <a href="https://www.linkedin.com/in/isacervantes/" target="_blank" class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-linkedin fs-2" style="color: #ffffff;"></i>
           </a>
         </li>
 
       </ul>
+
       <p class="text-center text-body-secondary">© 2024 Isabel, TECNOLOCHICAS PRO</p>
     </div>
   </footer>
 
 
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>
