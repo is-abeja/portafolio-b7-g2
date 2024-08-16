@@ -10,7 +10,6 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 
 
 ## Secciones de mi sitio
-Tomar fotos del portafolio
 ![Presentación](assets/presentacion.jpg)
 ![Habilidades](assets/habilidades.jpg)
 ![Proyectos](assets/proyectos.jpg)
